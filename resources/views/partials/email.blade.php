@@ -35,7 +35,7 @@
       <div class="col-md-6" id="info">
           <img class="john_pic" src="http://nicolas-logeais.fr/Site_John_R_Doe/img/photo_contact.png"/>
             <p>
-              John Doe / Designer & Developer
+              Tong Gan / PHP Web Developer
             </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -47,7 +47,7 @@
           <br><br>
 
           <p>Contact me: 123.456.789</p>
-          <p> Email me:<a href="#"> johndoe@gmail.com</a>
+          <p> Email me:<a href="#"> tonggan1986@gmail.com</a>
           <p>Follow me:
             <span>
               <a href="#">Twitter</a> / <a href="#">Facebook</a> / <a href="#">Dribbble</a> / <a href="#">Flickr</a>

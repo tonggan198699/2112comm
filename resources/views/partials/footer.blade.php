@@ -1,7 +1,7 @@
 
   <div class="container-fluid">
     <div class="navbar-header">
-      <h2>Copyright © 2015 John Doe. All rights reserved.</h2>
+      <h2>Copyright © 2018 Tong Gan. All rights reserved.</h2>
     </div>
     <ul class="nav navbar-nav">
       <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>

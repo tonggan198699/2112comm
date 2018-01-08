@@ -1,7 +1,7 @@
 
   <div class="container-fluid">
     <div class="navbar-header">
-      <h2>John R. Doe / Designer & Developer</h2>
+      <h2>Tong Gan / PHP Web Developer</h2>
     </div>
     <ul class="nav navbar-nav">
       <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
