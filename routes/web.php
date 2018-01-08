@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('main');
 });
+
+
+Route::post('/contact',  'ContactController@mailToAdmin');

@@ -2,27 +2,34 @@
 <div class="container">
   <div class="row">
 
+    @if(session('message'))
+      <div class='alert alert-success'>
+        {{ session('message') }}
+      </div>
+    @endif
+
       <div class="col-md-6">
-        <form class="emailForm" role="form" method="post" enctype="multipart/form-data">
+        <form class="emailForm" method="POST" action="/contact">
           {!! csrf_field() !!}
           <div class="form-group">
-              <input type="text" class="form-control" id="name" name="name" required="required" placeholder="Enter your name">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
           </div>
 
           <div class="form-group">
-            <input type="email" class="form-control" id="email" name="email" required="required" placeholder="Enter your email address">
+            <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
           </div>
 
           <div class="form-group">
-            <input type="url" class="form-control" id="website" name="website" required="required" placeholder="Enter your website url">
+            <input type="text" class="form-control" id="website" name="website" placeholder="Enter your website url" required>
           </div>
 
           <div class="form-group">
-            <textarea class="form-control" id="comment" required="required" rows="3"></textarea>
+            <textarea type="text" class="form-control" id="message" name="message" required="required" rows="3" required></textarea>
           </div>
 
-          <button type="submit" class="btn btn-secondary btn-lg" value="submit">Submit</button>
+          <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
         </form>
+
       </div>
 
       <div class="col-md-6" id="info">
